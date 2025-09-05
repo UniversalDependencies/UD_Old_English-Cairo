@@ -1,5 +1,6 @@
 # newdoc id = ang_Cairo-ud-test
 # sent_id = 1
+# parallel_id = cairo/1
 # text = Þæt mæden ƿrat hyre freonde ærend-ƿrit.
 1	Þæt	se	DET	DT	Case=Nom|Gender=Neut|Number=Sing	2	det	_	Gloss=the|Hyperlemma=the|Root=*so
 2	mæden	mæden	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Gloss=girl|Hyperlemma=maiden|Root=*mogʰ
@@ -10,6 +11,7 @@
 7	.	.	PUNCT	.	_	3	punct	_	Gloss=.|Hyperlemma=.|Root=_
 
 # sent_id = 2
+# parallel_id = cairo/2
 # text = Ic þence þæt hit reȝnaþ.
 1	Ic	ic	PRON	PRP	Case=Nom|Number=Sing|Person=1	2	nsubj	_	Gloss=I|Hyperlemma=I|Root=*eǵh₂
 2	þence	þencan	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=think|Hyperlemma=think|Root=*teng
@@ -19,6 +21,7 @@
 6	.	.	PUNCT	.	_	2	punct	_	Gloss=.|Hyperlemma=.|Root=_
 
 # sent_id = 3
+# parallel_id = cairo/3
 # text = He ȝesohte to ȝesƿicanne smican and drincan.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	Gloss=he|Hyperlemma=he|Root=*ḱís
 2	ȝesohte	ȝesecan	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=tried|Hyperlemma=seek|Root=*seh₂ǵ
@@ -30,6 +33,7 @@
 8	.	.	PUNCT	.	_	2	punct	_	Gloss=.|Hyperlemma=.|Root=_
 
 # sent_id = 4
+# parallel_id = cairo/4
 # text = Ƿilt þu gan?
 1	Ƿilt	ƿillan	AUX	MD	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	Gloss=want|Hyperlemma=will|Root=*welh₁
 2	þu	þu	PRON	PRP	Case=Nom|Number=Sing|Person=2	3	nsubj	_	Gloss=you|Hyperlemma=thou|Root=*tuh₂
@@ -37,6 +41,7 @@
 4	?	?	PUNCT	.	_	3	punct	_	Gloss=?|Hyperlemma=?|Root=_
 
 # sent_id = 5
+# parallel_id = cairo/5
 # text = Sam, ontyne þæt eagþyrel!
 1	Sam	Sam	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	3	vocative	_	Gloss=Sam|Hyperlemma=Sam|Root=_|SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	_	Gloss=,|Hyperlemma=,|Root=_
@@ -46,6 +51,7 @@
 6	!	!	PUNCT	.	_	3	punct	_	Gloss=!|Hyperlemma=!|Root=_
 
 # sent_id = 6
+# parallel_id = cairo/6
 # text = Heo dyde þæt hyre efen-ȝemacca þæt cræt ȝeƿeasce.
 1	Heo	heo	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	Gloss=she|Hyperlemma=she|Root=*ḱey
 2	dyde	don	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=did|Hyperlemma=do|Root=*dʰeh₁
@@ -58,6 +64,7 @@
 9	.	.	PUNCT	.	_	2	punct	_	Gloss=.|Hyperlemma=.
 
 # sent_id = 7
+# parallel_id = cairo/7
 # text = Peteres neah-ȝebur hæfð þone eodor readne onȝemet.
 1	Peteres	Petrus	PROPN	NNP	Case=Gen|Gender=Masc|Number=Sing	2	nmod:poss	_	Gloss=Petrus's|Hyperlemma=Petrus|Root=_
 2	neah-ȝebur	neah-ȝebur	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Gloss=neighbor|Hyperlemma=neighbor|Root=*h₂neḱ-bʰuHt
@@ -69,6 +76,7 @@
 8	.	.	PUNCT	.	_	7	punct	_	Gloss=.|Hyperlemma=.|Root=_
 
 # sent_id = 8
+# parallel_id = cairo/8
 # text = Min fæder is mara þonne þin.
 1	Min	min	PRON	PRP$	Case=Gen|Number=Sing|Person=1	2	nmod:poss	_	Gloss=my|Hyperlemma=mine|Root=*mīn
 2	fæder	fæder	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Gloss=father|Hyperlemma=father|Root=*ph₂tḗr
@@ -79,6 +87,7 @@
 7	.	.	PUNCT	.	_	4	punct	_	Gloss=.|Hyperlemma=.|Root=_
 
 # sent_id = 9
+# parallel_id = cairo/9
 # text = Maria ȝeƿann ær, Petrus seolfor and Iohanna gold.
 1	Maria	Maria	PROPN	NNP	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	Gloss=Maria|Hyperlemma=Maria|Root=_
 2	ȝeƿann	ȝeƿinnan	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=won|Hyperlemma=ȝeƿinnan|Root=*gʷʰen
@@ -92,6 +101,7 @@
 10	.	.	PUNCT	.	_	2	punct	_	Gloss=.|Hyperlemma=.|Root=_
 
 # sent_id = 10
+# parallel_id = cairo/10
 # text = Is Iguazu micel rice oþþe lytel?
 1	Is	beon	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Gloss=is|Hyperlemma=be|Root=*h₁ésti
 2	Iguazu	Iguazu	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Gloss=Iguazu|Hyperlemma=Iguazu|Root=_
@@ -102,6 +112,7 @@
 7	?	?	PUNCT	.	_	4	punct	_	Gloss=?|Hyperlemma=?|Root=_
 
 # sent_id = 11
+# parallel_id = cairo/11
 # text = Ne Petrus Smiþ ne Maria Brun mihton beon ȝecorene.
 1	Ne	ne	CCONJ	CC	_	2	cc:preconj	_	Gloss=neither|Hyperlemma=not|Root=*ne
 2	Petrus	Petrus	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing	9	nsubj:pass	_	Gloss=Petrus|Hyperlemma=Petrus|Root=_
@@ -115,6 +126,7 @@
 10	.	.	PUNCT	.	_	9	punct	_	Gloss=.|Hyperlemma=.
 
 # sent_id = 12
+# parallel_id = cairo/12
 # text = Hie nabbaþ nanne ȝeþoht hƿa hit ƿrat.
 1	Hie	hie	PRON	PRP	Case=Nom|Number=Plur	2	nsubj	_	Gloss=they|Hyperlemma=hie|Root=*hiʀ
 2	nabbaþ	nabban	VERB	VBZ	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=not-have|Hyperlemma=nabban|Root=*ne-keh₂p
@@ -126,6 +138,7 @@
 8	.	.	PUNCT	.	_	2	punct	_	Gloss=.|Hyperlemma=.
 
 # sent_id = 13
+# parallel_id = cairo/13
 # text = Hƿæt locast þu on?
 1	Hƿæt	hƿæt	PRON	WP	Case=Acc|Number=Sing	2	obl	_	Gloss=what|Hyperlemma=what|Root=*hwat
 2	locast	locian	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=looking|Hyperlemma=look|Root=*lōkōn
@@ -134,6 +147,7 @@
 5	?	?	PUNCT	.	_	2	punct	_	Gloss=?|Hyperlemma=?|Root=_
 
 # sent_id = 14
+# parallel_id = cairo/14
 # text = Hƿonne þenctst þu þæt þu meaht cuman?
 1	Hƿonne	hƿonne	ADV	WRB	_	7	advmod	_	Gloss=when|Hyperlemma=when|Root=*hwannā
 2	þenctst	þencan	VERB	VBZ	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Gloss=think|Hyperlemma=think|Root=*þankijan
@@ -145,6 +159,7 @@
 8	?	?	PUNCT	.	_	2	punct	_	Gloss=?|Hyperlemma=?|Root=_
 
 # sent_id = 15
+# parallel_id = cairo/15
 # text = He bohte cræt ac his broþor hƿeol-bearƿe.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Gloss=He|Hyperlemma=he|Root=*ḱís
 2	bohte	bycgan	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=bought|Hyperlemma=buy|Root=*bʰewgʰ
@@ -156,6 +171,7 @@
 8	.	.	PUNCT	.	_	2	punct	_	Gloss=.|Hyperlemma=.
 
 # sent_id = 16
+# parallel_id = cairo/16
 # text = Petrus and Maria beclypton heom be-tƿeonen and þa forletone þa heoþe.
 1	Petrus	Petrus	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Gloss=Petrus|Hyperlemma=Petrus|Root=_
 2	and	and	CCONJ	CC	_	3	cc	_	Gloss=and|Hyperlemma=and|Root=*h₂énti
@@ -171,6 +187,7 @@
 12	.	.	PUNCT	.	_	4	punct	_	Gloss=.|Hyperlemma=.
 
 # sent_id = 17
+# parallel_id = cairo/17
 # text = Hit ȝebyrede þt heo dyde hire her, ac for sume ƿisan nolde seo don sƿa.
 1	Hit	hit	PRON	PRP	Case=Nom|Number=Sing|Person=3	2	expl	_	Gloss=It|Hyperlemma=it|Root=*ḱey
 2	ȝebyrede	ȝebyrian	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Gloss=happened|Hyperlemma=ȝebyrian|Root=*bʰer
@@ -191,6 +208,7 @@
 17	.	.	PUNCT	.	_	2	punct	_	Gloss=.|Hyperlemma=.|Root=_
 
 # sent_id = 18
+# parallel_id = cairo/18
 # text = Ic ne mihte þurhƿunian, forðon he to sƿiftlice rann.
 1	Ic	ic	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	Gloss=I|Hyperlemma=I|Root=*éǵh₂
 2	ne	ne	ADV	RRB	_	4	advmod	_	Gloss=not|Hyperlemma=not|Root=*ne
@@ -205,6 +223,7 @@
 11	.	.	PUNCT	.	_	4	punct	_	Gloss=.|Hyperlemma=.|Root=_
 
 # sent_id = 19
+# parallel_id = cairo/19
 # text = Þis ærend-ƿrit is fram Petere and hit ƿæs ȝebroht ȝierstan-dæg.
 1	Þis	þis	DET	DT	Case=Nom|Gender=Neut|Number=Sing	2	det	_	Gloss=This|Hyperlemma=this|Root=*so
 2	ærend-ƿrit	ærende-writ	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Gloss=letter|Hyperlemma=errand-writ|Root=*wrey
@@ -219,6 +238,7 @@
 11	.	.	PUNCT	.	_	5	punct	_	Gloss=.|Hyperlemma=.
 
 # sent_id = 20
+# parallel_id = cairo/20
 # text = Heo ƿeox on Paris, þære heafod-burh Franc-landes.
 1	Heo	heo	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	Gloss=She|Hyperlemma=she|Root=*ḱís
 2	ƿeox	ƿeaxan	VERB	VBD	Number=Sing|Person=3|Tense=Past	0	root	_	Gloss=grew|Hyperlemma=wax|Root=*h₂weg
