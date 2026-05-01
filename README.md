@@ -44,7 +44,8 @@ Lauren Levine, Junghyun Min, and Amir Zeldes (2025). [Building UD Cairo for Old 
     url = "https://aclanthology.org/2025.udw-1.10/",
     pages = "97--104",
     ISBN = "979-8-89176-292-3"
-}```
+}
+```
 
 
 # Changelog
