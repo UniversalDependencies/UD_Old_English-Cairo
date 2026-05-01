@@ -43,9 +43,13 @@ Please refer to the following article for more information on the dataset and it
 
 # Changelog
 
+* 2026-05-01 v2.18
+  * add PronType and Definite features
+
 * 2025-09-05 v2.16
   * add parallel corpus information to machine-readable metadata
   * add parallel data support with parallel_id metadata 
+
 * 2025-05-15 v2.16
   * Initial release in Universal Dependencies.
 
