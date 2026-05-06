@@ -26,26 +26,37 @@ Nola Goodwin, Wesley Scivetti, Wyatt Roder
 
 Please refer to the following article for more information on the dataset and its creation, or for citation purposes.
 
-[Lauren Levine, Junghyun Min, and Amir Zeldes (2025). Building UD Cairo for Old English in the Classroom.](https://arxiv.org/abs/2504.18718)
+Lauren Levine, Junghyun Min, and Amir Zeldes (2025). [Building UD Cairo for Old English in the Classroom](https://aclanthology.org/2025.udw-1.10/). In _Proceedings of the Eighth Workshop on Universal Dependencies (UDW, SyntaxFest 2025)_. Ljubljana, Slovenia, 97–104.
 
-```
-@misc{levine2025building,
-      title={Building UD Cairo for Old English in the Classroom}, 
-      author={Lauren Levine and Junghyun Min and Amir Zeldes},
-      year={2025},
-      eprint={2504.18718},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.18718}, 
+```bibtex
+@inproceedings{levine-etal-2025-building,
+    title = "Building {UD} Cairo for {O}ld {E}nglish in the Classroom",
+    author = "Levine, Lauren  and
+      Min, Junghyun  and
+      Zeldes, Amir",
+    editor = {Bouma, Gosse  and
+      {\c{C}}{\"o}ltekin, {\c{C}}a{\u{g}}r{\i}},
+    booktitle = "Proceedings of the Eighth Workshop on Universal Dependencies (UDW, SyntaxFest 2025)",
+    month = aug,
+    year = "2025",
+    address = "Ljubljana, Slovenia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.udw-1.10/",
+    pages = "97--104",
+    ISBN = "979-8-89176-292-3"
 }
 ```
 
 
 # Changelog
 
+* 2026-05-01 v2.18
+  * add PronType and Definite features
+
 * 2025-09-05 v2.16
   * add parallel corpus information to machine-readable metadata
   * add parallel data support with parallel_id metadata 
+
 * 2025-05-15 v2.16
   * Initial release in Universal Dependencies.
 

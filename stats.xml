@@ -10,31 +10,32 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>20</sentences><tokens>171</tokens><words>171</words><fused>0</fused></test>
   </size>
-  <lemmas unique="100" /><!-- ., se, ,, Petrus, and, he, heo, ?, beon, hit, þu, Maria, magan, ne, þæt -->
+  <lemmas unique="101" /><!-- ., se, ,, Petrus, and, he, heo, ?, beon, hit, þu, Maria, magan, ne, þæt -->
   <forms unique="113" /><!-- ., þæt, ,, and, ?, hit, þu, Maria, Petrus, he, heo, is, ne, Ic, ac -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="13">
     <tag name="ADJ">4</tag><!-- lytel, micel, miċel, read -->
     <tag name="ADP">6</tag><!-- on, be-tweonum, for, fram, þonne -->
-    <tag name="ADV">5</tag><!-- hƿonne, ne, se, sƿiftlice, to -->
+    <tag name="ADV">6</tag><!-- hƿonne, ne, se, sƿa, sƿiftlice, to -->
     <tag name="AUX">11</tag><!-- beon, magan, habban, nyllan, ƿesan, ƿillan -->
     <tag name="CCONJ">10</tag><!-- and, ac, ne, oþþe -->
-    <tag name="DET">9</tag><!-- se, _, sum, þis -->
+    <tag name="DET">9</tag><!-- se, nanne, sum, þis -->
     <tag name="NOUN">23</tag><!-- cræt, broþor, eagþyrel, efen-ȝemacca, eodor, freond, fæder, gold, heafod-burh, her -->
     <tag name="PART">1</tag><!-- to -->
-    <tag name="PRON">28</tag><!-- he, heo, hit, þu, ic, hie, hƿa, hƿæt, min, se -->
+    <tag name="PRON">27</tag><!-- he, heo, hit, þu, ic, hie, hƿa, hƿæt, min, se -->
     <tag name="PROPN">15</tag><!-- Petrus, Maria, Brun, Franc-land, Iguazu, Iohanna, Paris, Sam, Smiþ -->
     <tag name="PUNCT">25</tag><!-- ., ,, ?, ! -->
     <tag name="SCONJ">5</tag><!-- þæt, forðon, se -->
     <tag name="VERB">29</tag><!-- dōn, þencan, ƿritan, beclyppan, bringan, bycgan, ceosan, cuman, don, drincan -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="21">
+  <feats unique="29">
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,PRON,PROPN">24</feat><!-- cræt, þæt, Brun, Hƿæt, Maria, Petrus, Smiþ, eagþyrel, eodor, gold -->
     <feat name="Case" value="Dat" upos="DET,NOUN,PRON,PROPN">5</feat><!-- Petere, freonde, heom, heoþe, þa -->
     <feat name="Case" value="Gen" upos="DET,PRON,PROPN">9</feat><!-- hyre, Franc-landes, Min, Peteres, hire, his, þin, þære -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,PRON,PROPN">36</feat><!-- þu, he, heo, hit, Ic, Maria, Petrus, Hie, Iguazu, Iohanna -->
+    <feat name="Definite" value="Def" upos="DET">6</feat><!-- þæt, þa, þone, þære -->
     <feat name="Degree" value="Cmp" upos="ADJ">1</feat><!-- mara -->
     <feat name="ExtPos" value="PRON" upos="PRON">1</feat><!-- heom -->
     <feat name="Gender" value="Fem" upos="DET,NOUN,PRON,PROPN">17</feat><!-- Maria, heo, hyre, Brun, Iohanna, heafod-burh, heoþe, hire, seo, sume -->
@@ -47,6 +48,13 @@
     <feat name="Person" value="1" upos="AUX,PRON,VERB">5</feat><!-- Ic, Min, mihte, þence -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">9</feat><!-- þu, locast, ontyne, þenctst, þin, Ƿilt -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">32</feat><!-- heo, hit, dyde, he, is, ƿrat, beclypton, bohte, forletone, heom -->
+    <feat name="Poss" value="Yes" upos="PRON">5</feat><!-- hyre, Min, hire, his -->
+    <feat name="PronType" value="Art" upos="DET">6</feat><!-- þæt, þa, þone, þære -->
+    <feat name="PronType" value="Dem" upos="DET">1</feat><!-- Þis -->
+    <feat name="PronType" value="Ind" upos="DET">1</feat><!-- sume -->
+    <feat name="PronType" value="Int" upos="PRON">2</feat><!-- Hƿæt, hƿa -->
+    <feat name="PronType" value="Neg" upos="DET">1</feat><!-- nanne -->
+    <feat name="PronType" value="Prs" upos="PRON">25</feat><!-- hit, þu, he, heo, Ic, hyre, Hie, Min, heom, hire -->
     <feat name="Tense" value="Past" upos="AUX,VERB">20</feat><!-- dyde, ƿrat, beclypton, bohte, forletone, meaht, mihte, mihton, nolde, onȝemet -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">8</feat><!-- is, hæfð, locast, nabbaþ, þence, þenctst, Ƿilt -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">26</feat><!-- dyde, is, ƿrat, beclypton, bohte, forletone, hæfð, locast, meaht, mihton -->
@@ -57,7 +65,7 @@
   <deps unique="31">
     <dep name="acl">1</dep>
     <dep name="advcl">1</dep>
-    <dep name="advmod">5</dep>
+    <dep name="advmod">6</dep>
     <dep name="amod">1</dep>
     <dep name="appos">1</dep>
     <dep name="aux">6</dep>
@@ -78,7 +86,7 @@
     <dep name="nmod:poss">7</dep>
     <dep name="nsubj">24</dep>
     <dep name="nsubj:pass">2</dep>
-    <dep name="obj">12</dep>
+    <dep name="obj">11</dep>
     <dep name="obl">4</dep>
     <dep name="obl:unmarked">1</dep>
     <dep name="orphan">3</dep>
