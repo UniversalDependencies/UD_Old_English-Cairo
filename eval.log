@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Old_English-Cairo:
-commit f2951e300d1e2a5f19ec2c33139c07297e21ee2c
-Merge: 8342908 7e44f57
+commit 5d94a0d5235466ad66f75f7c40ef186eaf3f1cdc
+Merge: 118f11a e83b9ae
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ang_cairo'
@@ -25,18 +25,6 @@ Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ang --max-err=10 UD_Old_English-Cairo/ang_cairo-ud-test.conllu
-[Line 5 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'Þæt' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 8 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'hyre' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 16 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'Ic' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 19 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'hit' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 26 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'He' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 39 Sent 4]: [L3 Warning pron-det-without-prontype] The word 'þu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 49 Sent 5]: [L3 Warning pron-det-without-prontype] The word 'þæt' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 56 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'Heo' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 59 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'hyre' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 61 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'þæt' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 37
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
